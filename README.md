@@ -34,7 +34,7 @@ I did create a hooks/ subdir where much of this could be handled.
 
 I could go on here, but I trust I've covered enough with my approach to demonstrate where I'm going with this. 
 
-c
+
 
 
 
