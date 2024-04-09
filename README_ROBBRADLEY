@@ -1,0 +1,21 @@
+## INSTALL
+
+* npm i
+
+## VENDOR 
+
+* Modern Normalize CSS
+
+
+## BEMIT 
+
+Class prefixes in play:
+
+* ```t-***``` - Template
+* ```u-***``` - Utility (Containers, Site Wrappers, Generic)
+* ```g-***``` - Component (Global)
+* ```c-***``` - Component (Local)
+* ```e-***``` - Element
+* ```f-***``` - Function - purely an additional class if JS required. Components should not be styled using this.   
+
+More info - https://gist.github.com/stephenway/a6145d9b4430e8c55a77

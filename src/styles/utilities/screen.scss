@@ -1,0 +1,24 @@
+.u-screen {
+    opacity: 0;
+    z-index: 100;
+    position: fixed;
+    top: -100%;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+    &.active {
+        top: 0;
+        opacity: 1;
+    }
+}

@@ -1,3 +1,45 @@
+# Nando Coding challenge UI component
+
+### Rob Bradley - paraxia@hotmail.com
+
+#### Notes:
+
+Modal opens and closes functionally and is 100% fluid responsive via SCSS.
+
+Opted to focus on prop variants primarily, specifically demonstrating the following core props 
+
+/components/button.tsx
+
+```
+interface ButtonProps {
+  children: React.ReactNode;
+  onClick: () => void;
+  variant?: string, // default, primary, info, success, warning, danger, dark
+  size?: string, // sm, md, lg
+  disabled?: boolean,
+  className?: string;
+}
+```
+Although not complete, I felt this was essential as a foundation here.
+
+Minimal accessibility but using the ```disabled``` prop as above we can proceed as needed with a fine comb in this respect
+
+Components need to be broken up more, I would have opted for a ButtonContainer, Modal tsx components and imported then in using ATOMIC (whether we extend this too styling AND component tsx is a controversial subject, i opted to demoinstate ATOMIC + BEMIT strictly with respect to styling here)
+
+Then.... ```modalIsOpen``` states need to be LIFTED across components etc
+
+Keyboard controls need to be added for accessibility, focusTrap library etc.
+
+I did create a hooks/ subdir where much of this could be handled.
+
+I could go on here, but I trust I've covered enough with my approach to demonstrate where I'm going with this. 
+
+c
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

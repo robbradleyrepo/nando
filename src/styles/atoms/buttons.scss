@@ -1,0 +1,38 @@
+ 
+button, .e-button { 
+  all: unset;
+  outline: revert;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  padding: 1em 2em;
+  margin: 1em 0;
+
+  // add trigger states etc
+
+  // &__primary {
+  //  
+  // }
+
+  // &__secondary {
+  //  
+  // }
+
+  &__close {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border: 1px solid transparent;
+  }
+
+  &.disabled {
+    opacity: 0.6;
+  }
+
+  &.sm {
+    padding: 0.5em 1em;
+  }
+}
+
